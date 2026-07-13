@@ -16,7 +16,8 @@
 
 // user include files
 #include "PerfTools/AllocMonitor/interface/AllocMonitorRegistry.h"
-#include "FWCore/Utilities/interface/thread_safety_macros.h"
+//#include "FWCore/Utilities/interface/thread_safety_macros.h"
+#define CMS_SA_ALLOW
 
 //
 // constants, enums and typedefs
