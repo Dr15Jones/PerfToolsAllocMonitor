@@ -44,6 +44,7 @@ set(LIB_INSTALL_DIR ${CMAKE_INSTALL_LIBDIR})
 set(PerfTools_EXPORT_TARGETS
   PerfToolsAllocMonitorPreload
   PerfToolsMaxMemoryPreload
+  PerfToolsAllocMonitor
 )
 
 # Install libraries and executables
