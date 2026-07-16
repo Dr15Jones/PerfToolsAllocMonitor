@@ -19,6 +19,9 @@ set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/bin)
 # Include GNUInstallDirs early so variables are available for environment scripts
 include(GNUInstallDirs)
 
+#handle threading
+set(THREADS_PREFER_PTHREAD_FLAG ON)
+find_package(Threads REQUIRED)
 
 # Add compile options
 add_compile_options(-Wall -Werror=return-type -Wno-attributes)
