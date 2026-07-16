@@ -1,4 +1,5 @@
 add_subdirectory(AllocMonitorPreload)
 add_subdirectory(MaxMemoryPreload)
 add_subdirectory(PeriodicAllocMonitorPreload)
+add_subdirectory(ThresholdAbortAllocMonitorPreload)
 add_subdirectory(AllocMonitor)
